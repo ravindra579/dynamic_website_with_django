@@ -1,0 +1,118 @@
+.i{
+    font-size: 24px;
+    border: 5px solid;
+    border-radius: 50px;
+}
+.intro{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2.5px 2.5px;
+    border-radius: 50px;
+    background-color: rgb(86, 126, 202);
+    width: 80%;
+    background-position: 200px;
+    padding: 0 20px 20px 10px;
+    border: 5px solid rgb(104, 192, 63);
+}
+div{
+    background-image: radial-gradient(white,rgb(80, 240, 179));
+}
+.div2{
+    padding-left: 75%;
+    background-color:darkblue;
+    color: white;
+
+}
+i{
+    font-size: 20px;
+display: inline-block;
+margin-left:100px;
+margin-block-start: 0px;
+margin-right: 20px;
+}
+p{
+    text-align: right;
+    padding-right: 30px;
+}
+.acc{
+    text-align: right;
+    margin-right: 30px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+
+}
+.a{
+    color: rgb(184, 40, 40);
+text-align: center;
+font: bold;
+font-size:xx-large;
+}
+.b{
+text-align: center;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 2%;
+padding-bottom: 2%;
+font: oblique;
+border: 5px solid;
+border-right: 6%;
+border-left: 6%;
+background-origin: 20px;
+}
+.intern{
+    color: rgb(184, 40, 40);
+    position: absolute;
+    padding-top: 2%;
+    padding-left: 10%;
+
+}
+.c{
+font:bold;
+padding-left: 30%;
+padding-right: 5%;
+}
+.d{
+    font:bold;
+padding-right: 30%;
+padding-left: 5%;
+}
+.pro{
+    color: rgb(184, 40, 40);
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 80%;
+
+}
+.job{
+    color: rgb(184, 40, 40);
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10%;
+
+}
+.log{
+    text-align: right;
+    margin-right: 45px;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+.z{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+.y{
+    position: absolute;
+    top: 50%;
+    left: 34%;
+}
+.x{
+    position: absolute;
+    top: 50%;
+    left: 44%;
+}
+.ac{
+    left: 5%;
+}

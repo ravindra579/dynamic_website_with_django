@@ -1,0 +1,21 @@
+<html>
+    <head>
+    </head>
+    <body>
+    <a href="c"><h2>back</h2></a>
+    {% block content %}
+        {% for data in dataset %}
+        <p>{{data.name}}</p>
+        <p>{{data.email}}</p>
+        {% endfor %}
+        {% endblock content %}
+        <br>
+        <br>
+        <a href="new"><h3>&nbsp your internship experience &nbsp</h3></a>
+    <br>
+        <a href="new1"><h3>&nbsp your project experience &nbsp</h3></a>
+    <br>
+        <a href="new2">y<h3>&nbsp your job experience &nbsp</h3></a>
+        <br>
+    </body>
+        </html>

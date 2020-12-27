@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link href="{% static 'login.css' %}" type="text/css" rel="stylesheet"/>
+</head>
+<script src="{% static 'js.js' %}"></script>
+<body>
+<div id="wrapper">
+<div class="form_div">
+    <p class="form_label">SIGNUP FORM</p>
+    <form method="post" action="login" onsubmit=" matchpassword(this)">
+        {% csrf_token %}
+    <p><input id="name" name="name" type="text" placeholder="Enter Name"></p>
+    <p><input id="email" name="email" type="text" placeholder="Enter Email"></p>
+    <p><input id="pass" name="pass" type="password" placeholder="Enter password **********"></p>
+    <p><input id="pass1" name="pass1" type="password" placeholder="Confirm password **********"></p>
+    <P><input type="submit" value="SIGNUP"></P>
+    </form>
+    </div>
+</div>
+</body>
+</html>

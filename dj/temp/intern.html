@@ -1,0 +1,19 @@
+{% load static %}
+<html>
+    <head>
+        <title></title>
+    </head>
+    <link href="{% static 'new.css' %}" type="text/css" rel="stylesheet"/>
+    <body>
+        {% block content %}
+        {% for data in dataset %}
+        <div class="i">
+            <h3 >stream :- {{data.field}}</h3>
+            <h3>Description:- {{data.desc}}</h3>
+            </div>
+            <br>
+            <br>
+        {% endfor %}
+        {% endblock content %}
+    </body>
+</html>
