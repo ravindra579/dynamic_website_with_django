@@ -1,0 +1,38 @@
+{% load static %}
+<html>
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link href="{% static 'css.css' %}" rel="stylesheet" type="text/css">
+</html>
+<body>
+	<div class="min-h-screen bg-gray-200 flex justify-center items-center">
+		<!-- Start of component -->
+		<div class="max-w-sm bg-white border-2 border-gray-300 p-6 rounded-md tracking-wide shadow-lg">
+		   <div id="header" class="flex items-center mb-4"> 
+			  <div id="header-text" class="leading-5 ml-6 sm">
+				 <h4 id="name" class="text-xl text-center font-semibold">Filter</h4>
+			  </div>
+		   </div>
+		   <div id="quote">
+			  <form action="filtera" method="post">
+				{% csrf_token %}
+				<p><input type="checkbox" name="checks[]" value="internship" /> &nbsp Internship &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+				<input type="checkbox" name="checks[]" value=job /> &nbsp Job</p>
+				<p><input type="checkbox" name="checks[]" value=mechanical /> &nbsp Mechanical &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+				<input type="checkbox" name="checks[]" value="electrical" /> &nbsp Electrical</p>
+				<input type="checkbox" name="checks[]" value="electronics" /> &nbsp Electronics &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+				<input type="checkbox" name="checks[]" value="cse" /> &nbsp Computer science</p>
+				<p><input type="checkbox" name="checks[]" value="Civil" /> &nbsp Civil &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+				<input type="checkbox" name="checks[]" value="production" /> &nbsp Production</p>
+				<p><input type="checkbox" name="checks[]" value="chemical" /> &nbsp Chemical &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+				<input type="checkbox" name="checks[]" value="other" /> &nbsp Other</p>
+				<br>
+				<p class="float-center text-center"><input type="submit" value="Apply filter"></p>
+			  </form>
+		   </div>
+		</div>
+		<!-- End of component -->
+	 </div>
+</body>
