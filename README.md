@@ -6,3 +6,4 @@
 # Other informations
  I have used postgresql for database ,in order to run the code we have to follow some steps ...... like python manage.py runserver 
 [follow this video to understood django](https://youtu.be/OTmQOjsl0eg)
+website link : http://set-forth.herokuapp.com/
