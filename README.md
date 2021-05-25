@@ -31,3 +31,10 @@ python manage.py runserver
 After we run that we will see link with ip address that is local host address with a port number we can change port number
 
 Use any editor like Visual studio code and open the folder which you have created you will see code in setting.py and in some other files also 
+# Create your own app
+In order to create your own django app create your own app by
+```
+python manage.py startapp appname
+```
+another folder will be created with appname inside there will be some .py files  
+![image](https://user-images.githubusercontent.com/64942306/119445637-c1b49900-bd4a-11eb-9e81-8895b93b376d.png)
