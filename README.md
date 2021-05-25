@@ -38,3 +38,17 @@ python manage.py startapp appname
 ```
 another folder will be created with appname inside there will be some .py files  
 ![image](https://user-images.githubusercontent.com/64942306/119445637-c1b49900-bd4a-11eb-9e81-8895b93b376d.png)
+
+admin.py is used after you have created database and it helps to view the database from django admin page ,about this file you will understood later clearly 
+
+apps.py is used to connect your html,css,js or any other files with django
+
+models.py is used t create classes and we can migrate to databse to create some table or database it might be relational database or non relational database 
+
+tests.py for test purposes
+
+views.py is used to tansfer data or connnect from python to html or css or js files
+
+
+
+
