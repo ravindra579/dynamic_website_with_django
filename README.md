@@ -11,23 +11,23 @@ website link : http://set-forth.herokuapp.com/
 Before installing Django make sure you have installed python
 
 run the command 
-
+```
 pip install django 
-
+```
 After installing its time to create django project setup By running the following command
-
+```
 django-admin startproject projectname
-
+```
 django will create some files  ex: urls.py,settings.py .......etc
 
 open the project files
-
+```
 cd projectname
-
+```
 In order to run this a server is needed ,for django it will automatically give a light weight server so just run the following command to run the project
-
+```
 python manage.py runserver
-
+```
 After we run that we will see link with ip address that is local host address with a port number we can change port number
 
 Use any editor like Visual studio code and open the folder which you have created you will see code in setting.py and in some other files also 
